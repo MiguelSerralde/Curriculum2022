@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Josefin+Sans:ital,wght@0,200;0,300;1,200&display=swap');
 
 body {
     background-color: #2e1d1d;
@@ -215,21 +215,18 @@ input {
     margin-top: 10px ;    
 }
 
-.date-work{
-    font-size: 16px;
-}
-
 .experience h4{
     color: rgb(226, 169, 23);
 }
 
 .experience span {
     font-size: 12px;
+    font-weight: bolder;
+    font-family: 'Josefin', sans-serif;
 }
 
 @media (max-width: 1600px){
     .eMail {
         font-size: 12px;
-    }   
-   
+    }      
 }
