@@ -18,9 +18,9 @@ abbr {
     padding: 40px;    
 }
 
-.left-bar img {
-    width: 200px;
-    height: 200px;
+.image-profile {
+    width: 80%;
+    height: 25%;
     border-radius: 50%;
     margin-left: 40px;
 }
@@ -29,7 +29,7 @@ abbr {
     margin-top: 30px;
     margin-left: 40px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
 }
 
 .personal-data strong {
@@ -48,6 +48,7 @@ abbr {
     display: flex;
     margin: 0;
     padding: 0;
+    width: 100%;
 
 }
 .eMail img {
@@ -112,7 +113,7 @@ hr {
     margin-left: 100px;
 }
 
-.li-1:hover {    
+li:hover {    
     color: goldenrod;    
 }
 
@@ -201,6 +202,10 @@ input {
     width: 350px;        
 }
 
+.experience {
+    width: 90%;
+}
+
 .experience h2{
     width: 145px;
 }
@@ -220,4 +225,11 @@ input {
 
 .experience span {
     font-size: 12px;
+}
+
+@media (max-width: 1600px){
+    .eMail {
+        font-size: 12px;
+    }   
+   
 }
