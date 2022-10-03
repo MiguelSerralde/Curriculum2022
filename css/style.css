@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+
+body {
+    background-color: #2e1d1d;
+    color: whitesmoke;        
+}
+abbr {
+    text-decoration: none;
+}
+
+.left-bar {    
+    display: flex;
+    position: fixed;
+    width: 15%;
+    height: 100%;
+    flex-direction: column;
+    background-color: rgb(5, 0, 0);
+    padding: 40px;    
+}
+
+.left-bar img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+
+.personal-data {
+    margin-top: 30px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.personal-data strong {
+    margin-top: 10px;
+}
+
+.name span{
+    font-size: 20px;
+}
+
+.personal-data a {
+    color: rgb(220, 161, 231);
+}
+
+.eMail {
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+.eMail img {
+    width: 40px;
+    height: 35px;
+    margin-left: -10px;
+}
+
+.eMail a {
+    margin-top: 8px;
+}
+
+.date-schoolship {
+    font-size: 14px;
+}
+
+.data-cv {
+    margin-left: 400px;
+    padding: 10px;
+    font-family: 'Alkalami', serif;
+    width: 70%;
+}
+
+.data-cv p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.data-cv h2 {
+    padding: 0;
+    margin-bottom: 0;          
+    border: 1px solid;
+    border-color: white;
+    border-style: double;  
+    width: 120px;
+    border-radius: 10%;  
+    height: 35px;
+}
+
+.data-cv h2:hover {
+    border: 1px solid;
+    background-color: white;
+    color: black;
+    border-color: gold;    
+}
+
+hr {
+    border: 1px dashed aqua;
+    width: 90%;
+    align-items: left;
+    margin-left: 5px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    margin-right: 200px;
+}
+
+.sw-other {
+    margin-left: 100px;
+}
+
+.li-1:hover {    
+    color: goldenrod;    
+}
+
+.code img {
+    width: 25px;
+    height: 25px;    
+}
+
+.angular {
+    display: flex;     
+}
+
+.angular li {
+    margin-right: 5px;
+}
+
+.javascript {
+    display: flex;
+}
+
+.javascript {
+    margin-right: 5px;
+}
+
+.html {
+    display: flex;
+}
+
+.html li {
+    margin-right: 5px;
+}
+
+.css {
+    display: flex;
+}
+
+.css li {
+    margin-right: 5px;
+}
+
+.nodeJS {
+    display: flex;
+}
+
+.nodeJS li {
+    margin-right: 5px;
+}
+
+.nodeJS img {
+    width: 40px;
+    height: 30px;
+}
+
+.angular img:hover {
+    width: 70px;
+    height: 60px;
+    margin-top: -15px;
+}
+
+.javascript img:hover {
+    width: 70px;
+    height: 60px;
+    margin-top: -15px;
+}
+
+.html img:hover {
+    width: 70px;
+    height: 60px;
+    margin-top: -15px;
+}
+
+.css img:hover {
+    width: 70px;
+    height: 60px;
+    margin-top: -15px;
+}
+
+.nodeJS img:hover {
+    width: 70px;
+    height: 60px;
+    margin-top: -15px;
+}
+
+input {
+    display: block;
+    width: 350px;        
+}
+
+.experience h2{
+    width: 145px;
+}
+
+.experience h4 {
+    margin: 0;
+    margin-top: 10px ;    
+}
+
+.date-work{
+    font-size: 16px;
+}
+
+.experience h4{
+    color: rgb(226, 169, 23);
+}
+
+.experience span {
+    font-size: 12px;
+}
